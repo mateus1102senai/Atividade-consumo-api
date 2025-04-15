@@ -37,10 +37,10 @@ const MealList = () => {
     }
 
     return (
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} ${styles.customWrapper} ${styles.additionalWrapper}`}>
             <h1 className={styles.heading}>Receitas Aleatórias</h1>
             {meals.map((meal) => (
-                <div key={meal.idMeal} className={styles.card}>
+                <div key={meal.idMeal} className={`${styles.card} ${styles.customCard} ${styles.styledCard}`}>
                     <img
                         src={meal.strMealThumb}
                         alt={meal.strMeal}
@@ -48,10 +48,10 @@ const MealList = () => {
                     />
                     <div className={styles.details}>
                         <h2 className={styles.name}>{meal.strMeal}</h2>
-                        <p>
+                        <p className={styles.category}>
                             <strong>Categoria:</strong> {meal.strCategory}
                         </p>
-                        <p>
+                        <p className={styles.area}>
                             <strong>Origem:</strong> {meal.strArea}
                         </p>
                         <p className={styles.instructions}>

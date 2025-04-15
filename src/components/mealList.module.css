@@ -1,7 +1,8 @@
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 5px;
+    
 }
 
 .heading {
@@ -46,12 +47,12 @@
     margin: 0 0 10px;
     font-size: 18px;
     font-weight: 600;
-    color: #333;
+    color: #000000;
 }
 
 .instructions {
     font-size: 14px;
-    color: #555;
+    color: #000000;
     margin: 10px 0;
 }
 
@@ -59,7 +60,7 @@
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #4caf50;
+    background-color: #000000;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -70,8 +71,23 @@
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #3c3c3c;
 }
+
+.category {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.area {
+    font-size: 12px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+
+
 
 /* Responsividade */
 @media (max-width: 768px) {
