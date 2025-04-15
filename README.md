@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Interface API - Atividade Consumo de API
 
-## Getting Started
+Este projeto foi desenvolvido com o objetivo de consumir uma API e exibir os dados de forma organizada em uma interface. Abaixo estão as instruções e detalhes sobre o que foi implementado.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Consumo de API**: Integração com uma API externa para obter dados.
+- **Exibição de Dados**: Apresentação dos dados consumidos em uma interface amigável.
+- **Tratamento de Erros**: Implementação de mensagens de erro para falhas na comunicação com a API.
+- **Responsividade**: Interface adaptada para diferentes tamanhos de tela.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **HTML5**: Estruturação da interface.
+- **CSS3**: Estilização e responsividade.
+- **JavaScript**: Lógica de consumo da API e manipulação dos dados.
+- **Framework/Biblioteca (se aplicável)**: [Especificar caso tenha sido usado, como React, Vue, etc.]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Como Executar o Projeto
 
-## Learn More
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/interface-api.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd interface-api
+    ```
+3. Abra o arquivo `index.html` em seu navegador ou utilize um servidor local.
 
-To learn more about Next.js, take a look at the following resources:
+## Estrutura do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `index.html`: Arquivo principal da interface.
+- `style.css`: Estilos aplicados à interface.
+- `script.js`: Código responsável pelo consumo da API e manipulação dos dados.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Melhorias Futuras
 
-## Deploy on Vercel
+- Adicionar paginação para grandes volumes de dados.
+- Implementar testes automatizados.
+- Melhorar a acessibilidade da interface.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
